@@ -84,5 +84,3 @@ test:
 production:
   <<: *default
   database: cryptowatcher_production
-  username: cryptowatcher
-  password: <%= ENV['CRYPTOWATCHER_DATABASE_PASSWORD'] %>
